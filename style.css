@@ -6,24 +6,29 @@
 }
 
 body {
-    background-color: white;
+    background-color:#ACD1AF;
     justify-content: center;
     align-items: center;
     display: flex;
     min-height: 100vh;
 }
 
+
 .box {
-    background-color: gray;
+    border: 4px ridge;
+    border-color: goldenrod;
+    background-color: antiquewhite;
+    border-radius: 15px;
     padding-top: 30px;
     padding: 30px;
+    box-shadow: black 0px 22px 70px 4px;
 }
 
 .box h2 {
     margin-bottom: 40px;
     text-align: center;
     font-size: 30px;
-    color: white;
+    color:black;
     font-family: sans-serif;
 }
 
@@ -34,7 +39,7 @@ input {
     width: 400px;
     border-radius: 5px;
     border: none;
-    border: 2px solid green;
+    border: 4px ridge goldenrod;
     outline: none;
     font-size: 25px;
 }
@@ -47,7 +52,7 @@ input::placeholder {
     font-family: sans-serif;
     font-size: 15px;
     margin-top: 40px;
-    border: 2px solid green;
+    border: 4px ridge goldenrod;
     width: 200px;
     height: 50px;
     text-align: center;
